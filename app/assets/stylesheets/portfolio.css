@@ -1,0 +1,37 @@
+/** General **/
+
+li a{text-decoration:none;}
+li a:hover{text-decoration: underline;}
+div{margin-bottom:2px;}
+
+/** EnTete **/
+header {height:100px;top:10px;}
+header div {margin-bottom:18px;}
+
+/** navigation**/
+nav ul li{display:inline-block;}
+nav ul li{width: 80px;}
+
+section {margin-bottom:18px;}
+
+/** pages cv **/
+#cv div{padding:5px;}
+#cv ul{padding:5px;}
+#cv ul li{padding:5px;}
+#cv a{text-decoration:none;}
+#cv a:visited{color: #000;}
+
+
+/** about**/
+#about .about_img{position:relative;padding-left:100px;}
+
+/**contact**/
+#contact .formulaire{position:relative;padding-left:300px;}
+#contact textarea {height:100px;}
+
+/** Pied **/
+footer {text-align:center;}
+footer {height:100px;top:10px;}
+footer nav{position: relative;padding-left: 300px;padding-top:50px;}
+/**footer {text-align: center;margin-top: 10px;margin-left: auto;margin-right: auto;}
+footer nav {float: none;}**/

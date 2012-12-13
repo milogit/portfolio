@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= titre %></title><!-- Utilisation dun helper -->
+  <%= render 'layouts/stylesheets' %><!--Utilisation dun partial-->
+</head>
+<body>
+		
+		<%= render 'layouts/header' %><!--Utilisation dun partial-->
+		
+		<section class="row">
+			<%= yield %>
+		</section>
+		<%= render 'layouts/footer' %><!--Utilisation dun partial-->
+		
+</body>
+</html>
